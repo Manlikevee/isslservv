@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.content{
+    width: 100%;
+    padding: 80px;
+}
+.topflex{
+    display: flex;
+    gap: 20px;
+}
+.tflexone{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.tflextwo{
+    width: 100%;
+}
+.cus{
+    width: 100%;
+}
+
+.cus button{
+    padding: 10px;
+    background-color: #3A3A85;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 2px;
+    color: white;
+    padding-inline: 20px;
+    min-width: 120px;
+}
+.topflex{
+    width: 100%;
+
+}
+
+.ttitle{
+    color: #3A3A85;
+  font-weight: 900;
+    font-size: 37px;
+    line-height: 38px;
+}
+.ttitle span{
+    color: #F5070F;
+}
+
+.tbody{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.gridboxes{
+    width: 100%;
+    display: grid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
+
+  
+}
+
+.gridbox{
+    padding: 20px;
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
