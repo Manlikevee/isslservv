@@ -13,16 +13,21 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+
     font-family: 'Raleway', sans-serif;
 }
 .content{
     width: 100%;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
 }
 .topflex{
     display: flex;
     gap: 20px;
+    width: 100%;
+    align-items: center;
 }
 .tflexone{
     width: 90%;
@@ -38,6 +43,33 @@ body{
     width: 100%;
 }
 
+.wtitle{
+    color: #3A3A85;
+    font-weight: 800;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.wbody{
+    color: #222;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.wbutton{
+    border: 1px solid #3A3A85;
+    color: #3A3A85;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out
+}
+
+.wbutton:hover{
+    background: #3a3a85;
+    color: white;
+}
 .cus button{
     padding: 10px;
     background-color: #3A3A85;
@@ -62,7 +94,7 @@ body{
     line-height: 38px;
 }
 .ttitle span{
-    color: #F5070F;
+    color: #f55e66;
 }
 
 .tbody{
@@ -93,4 +125,222 @@ body{
     justify-content: center;
     width: 100%;
     text-align: center;
+}
+
+.wicon{
+    color: #3A3A85;
+    font-size: 33px;
+}
+
+.consultflex{
+    width: 100%;
+    padding: 20px;
+    background: #f5f5f5;
+    gap: 20px;
+    display: flex;
+}
+
+.consulttext{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.consultimg{
+    width: 30%;
+    padding: 20px;
+}
+
+.consultimg img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.consbody{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+}
+.constitle{
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: none;
+    text-align: left;
+    font-weight: 900;
+}
+
+.consbtn{
+    padding: 10px;
+    background-color: #3A3A85;
+    width: fit-content;
+}
+
+.howitworks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how{
+    color: #000000;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: none;
+    text-align: center;
+}
+
+.howtext{
+    font-family: "Raleway";
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.costing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background-color: #fff;
+    max-width: 93%;
+    margin: auto;
+    margin-top: -70px;
+    padding: 30px;
+}
+.pricingbreakdown{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+    
+}
+.showcase .pricingbreakdown{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-auto-rows: 1fr; 
+}
+.pricingbox{
+    padding: 30px;
+    background-color: white;
+    border-right: 1px solid #dddddd;
+    
+}
+
+.ptitle{
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pnum{
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.pprice{
+    color: #f55e66;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pricingbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.howflex{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.howbox{
+    width: 350px;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #cccccc8a;
+}
+
+.howtitle{
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.howmuchflex{
+    background-position: top;
+
+    background: #e3e3e3 url(https://demo15.atiframe.com/wp-content/uploads/2019/10/image-9.jpg) 0% 0%/auto repeat scroll;
+    height: 280px;
+}
+.pcion{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.shocasetext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.howbody{
+    line-height: 22px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.hownum{
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f55e66;
+}
+
+.galbox{
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    background-color: #f5f5f5;
+}
+
+.galbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
